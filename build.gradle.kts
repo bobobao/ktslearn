@@ -23,6 +23,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-script-util")
     implementation("org.jetbrains.kotlin:kotlin-script-runtime")
     implementation("org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable")
+    implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable")
+
 //    implementation("org.jetbrains.kotlin:kotlin-main-kts")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.2")

@@ -12,6 +12,7 @@ version = "1.0-SNAPSHOT"
 repositories {
     maven(url = "https://maven.aliyun.com/repository/central")
     maven(url = "https://maven.aliyun.com/repository/jcenter")
+    maven { url = uri("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven") }
     mavenCentral()
 }
 
@@ -24,8 +25,6 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-script-runtime")
     implementation("org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable")
     implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable")
-
-//    implementation("org.jetbrains.kotlin:kotlin-main-kts")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.2")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.2")

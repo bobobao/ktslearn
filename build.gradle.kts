@@ -2,7 +2,6 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     java
-    application
     kotlin("jvm") version "1.5.30"
 }
 
@@ -41,11 +40,7 @@ tasks.withType<KotlinCompile> {
     }
 }
 
-application {
-    mainClass.set("com.bao.learn.groovy.MainKt")
-}
-
-val mainClass = "com.bao.learn.groovy.MainKt"
+val mainClass = "com.bao.learn.script.MainKt"
 
 tasks.register<Jar>("fatJar") {
     archiveClassifier.set("all")

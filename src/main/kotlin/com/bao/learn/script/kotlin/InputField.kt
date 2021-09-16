@@ -1,6 +1,6 @@
-package com.bao.learn.script
+package com.bao.learn.script.kotlin
 
-import com.bao.learn.script.vo.FieldDefined
+import com.bao.learn.script.kotlin.vo.FieldDefined
 import java.math.BigInteger
 import java.nio.charset.Charset
 

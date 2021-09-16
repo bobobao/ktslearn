@@ -1,8 +1,8 @@
-package com.bao.learn.script
+package com.bao.learn.script.kotlin
 
-import com.bao.learn.script.runner.KtsObjectLoader
-import com.bao.learn.script.vo.FlexibleFieldDefined
-import com.bao.learn.script.vo.MessageDefined
+import com.bao.learn.script.kotlin.runner.KtsObjectLoader
+import com.bao.learn.script.kotlin.vo.FlexibleFieldDefined
+import com.bao.learn.script.kotlin.vo.MessageDefined
 import io.netty.buffer.Unpooled
 import java.nio.charset.Charset
 import java.nio.file.Files

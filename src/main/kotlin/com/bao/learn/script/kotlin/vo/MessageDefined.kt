@@ -1,4 +1,4 @@
-package com.bao.learn.script.vo
+package com.bao.learn.script.kotlin.vo
 
 import java.nio.charset.Charset
 

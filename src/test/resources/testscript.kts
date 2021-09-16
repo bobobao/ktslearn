@@ -1,4 +1,4 @@
-import com.bao.learn.script.vo.*
+import com.bao.learn.script.kotlin.vo.*
 import java.nio.charset.Charset
 
 msg(0x0200) {

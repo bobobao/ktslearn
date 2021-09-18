@@ -2,6 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     java
+    groovy
     kotlin("jvm") version "1.5.30"
 }
 

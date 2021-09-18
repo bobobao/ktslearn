@@ -43,20 +43,6 @@ class EngineTest {
     // https://github.com/JetBrains/kotlin/blob/master/libraries/examples/kotlin-jsr223-local-example/src/test/kotlin/org/jetbrains/kotlin/script/jsr223/KotlinJsr223ScriptEngineIT.kt
     // https://youtrack.jetbrains.com/issue/KT-15125
     @Test
-    fun runnable() {
-        with(KtsObjectLoader().engine as KotlinJsr223JvmLocalScriptEngine) {
-            val script = """
-                val A = object: Runnable {
-                    override fun run() {
-                        println("called")
-                    }
-                }
-                bindings["A"] = A
-            """.trimIndent()
-        }
-    }
-
-    @Test
     fun testMultipleCompilable() {
         val engine = ScriptEngineManager().getEngineByExtension("kts") as KotlinJsr223JvmLocalScriptEngine
         val compiled1 = engine.compile("""listOf(1,2,3).joinToString(",")""")
